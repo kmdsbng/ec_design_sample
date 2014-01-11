@@ -1,6 +1,52 @@
 ---
-title: Welcome to Middleman
+title: デザインサンプル
 ---
 
-h1 bootstrap-sass-slim
-p A Middleman Project Template built with Twitter Bootstrap, Sass & Slim
+.navbar.navbar-default.navbar-fixed-top
+  .container
+    .navbar-header
+      a.navbar-brand href="../"  デザインサンプル
+      button.navbar-toggle data-target="#navbar-main" data-toggle="collapse" type="button" 
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+    #navbar-main.navbar-collapse.collapse
+      ul.nav.navbar-nav
+      ul.nav.navbar-nav.navbar-right
+
+.container
+  .page-header
+
+.container
+  .bs-docs-section.clearfix
+    .row
+      .col-lg-12
+
+        div style="text-align: center"
+          button.btn.btn-warning.btn-lg type="button"
+            | ご注文はこちらから
+
+        br
+
+        div style="position: relative; width: 750px; height: 440px; margin-left: auto; margin-right: auto;"
+          div style="width: 531px; height: 67px; padding: 6px; background-color: gold; margin-right: auto; margin-left: auto"
+            div style="text-align: center; border: solid black 1px; padding: 2px;"
+              span style="color: black; font-size: 250%; font-family: serif"
+                | 鮮度抜群自信作
+              span style="color: black; font-size: 200%; font-family: serif"
+                | です
+
+          div.nave_image style="background-color: #060; width: 750px; height: 440px; margin-left: auto; margin-right: auto; position: absolute; top: 35px; z-index: -1"
+            div style="color: black; font-size: 250%; font-weight: bold; -webkit-transform: rotate(-10deg); position: absolute; left: 80px; top: 70px; text-shadow: 2px 2px 1px #FFF, -2px 2px 1px #FFF, 2px -2px 1px #FFF, -2px -2px 1px #FFF;"
+              | あったかお鍋で
+
+
+        div.nave_image style="background-color: #060; width: 750px; height: 440px; margin-left: auto; margin-right: auto; margin-top: 5px; position: relative; top: 35px; z-index: -1"
+          div style="color: black; font-size: 250%; font-weight: bold; -webkit-transform: rotate(5deg); position: absolute; right: 80px; top: 50px; text-shadow: 2px 2px 1px #FFF, -2px 2px 1px #FFF, 2px -2px 1px #FFF, -2px -2px 1px #FFF;"
+            | 熱々プリップリ♪
+
+        div.nave_image style="background-color: #060; width: 750px; height: 440px; margin-left: auto; margin-right: auto; margin-top: 5px; position: relative; top: 35px; z-index: -1"
+          div style="color: black; font-size: 250%; font-weight: bold; -webkit-transform: rotate(-10deg); position: absolute; left: 30px; top: 100px; text-shadow: 2px 2px 1px #FFF, -2px 2px 1px #FFF, 2px -2px 1px #FFF, -2px -2px 1px #FFF;"
+            | しめの雑炊も絶品！
+
+
